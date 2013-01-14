@@ -9,7 +9,7 @@ use Module::Load;
 use URI::Title;
 use 5.010;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 =head1 NAME
 
@@ -177,6 +177,17 @@ add to your channel and configure appropriately for you - just drop me a mail.
 =head1 AUTHOR
 
 David Precious (bigpresh) C<< <davidp@preshweb.co.uk> >>
+
+
+=head1 LICENSE AND COPYRIGHT
+
+Copyright 2013 David Precious.
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
 
 =cut
 1;

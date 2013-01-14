@@ -1,29 +1,29 @@
----
-abstract: 'provide links to CPAN module docs'
+--- #YAML:1.0
+name:               Bot-BasicBot-Pluggable-Module-CPANLinks
+version:            0.02
+abstract:           provide links to CPAN module docs
 author:
-  - 'David Precious <davidp@preshweb.co.uk>'
-build_requires:
-  ExtUtils::MakeMaker: 0
+    - David Precious <davidp@preshweb.co.uk>
+license:            perl
+distribution_type:  module
 configure_requires:
-  ExtUtils::MakeMaker: 0
-dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921'
-license: perl
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
-name: Bot-BasicBot-Pluggable-Module-CPANLinks
-no_index:
-  directory:
-    - t
-    - inc
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
 requires:
-  Bot::BasicBot::Pluggable: 0
-  Module::Load: 0
-  Test::More: 0
-  URI::Title: 0
+    Bot::BasicBot::Pluggable:  0
+    Module::Load:         0
+    Test::More:           0
+    URI::Title:           0
 resources:
-  bugtracker: https://github.com/bigpresh/Bot-BasicBot-Pluggable-Module-CPANLinks/issues
-  homepage: https://github.com/bigpresh/Bot-BasicBot-Pluggable-Module-CPANLinks/
-  repository: https://github.com/bigpresh/Bot-BasicBot-Pluggable-Module-CPANLinks
-version: 0.01
+    bugtracker:  https://github.com/bigpresh/Bot-BasicBot-Pluggable-Module-CPANLinks/issues
+    homepage:    https://github.com/bigpresh/Bot-BasicBot-Pluggable-Module-CPANLinks/
+    repository:  https://github.com/bigpresh/Bot-BasicBot-Pluggable-Module-CPANLinks
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.55_02
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
